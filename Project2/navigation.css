@@ -1,0 +1,28 @@
+.nav{
+	font-family: sans-serif;
+	text-align: center;
+	background: black;
+	color: green;
+	text-decoration: green;
+	position: fixed;
+	bottom:98%;
+	width: 100%;
+	font-size: 25px; 
+
+
+
+
+
+
+}
+
+.noDecoration,a:link, a:visited{
+	text-decoration: none;
+	color: white;
+
+
+}
+a .nav:hover {
+    color: green;
+    -webkit-text-stroke: 2px black;
+}
