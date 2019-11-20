@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+	<style type="text/css">
+		
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-image: radial-gradient(circle, #FFFF00, #347235, #616D7E);
+	
+}
+#wordblock {
+	font-family: sans-serif;
+	margin: 400px;
+	margin-left: 100px;
+	font-size: 36px;
+}
+.word {
+	font-family: 'Indie Flower', cursive;
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.word .wordtext {
+    visibility: hidden;
+    width: 400px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+        opacity: 0;
+    transition: opacity 1s;
+    margin-top: 24px;
+
+}
+
+.word .wordtext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -60px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+
+}
+.word:hover .wordtext {
+    visibility: visible;
+      opacity: 1;
+  }
+
+	</style>
+	
+	<div id="wordblock">
+<div class="word">The free bird leaps<span class="wordtext"> on the back of the wind</span></div><br>
+<div class="word">and<span class="wordtext">floats downstream till the current ends and</span></div> <br>   
+<div class="word">dips<span class="wordtext">his wing</span></div>  <br> 
+<div class="word">in<span class="wordtext">the orange sun rays</span></div><br>
+<div class="word">and dares<span class="wordtext">to claim the sky</span></div><br>
+<div class="word">The free bird thinks of<span class="wordtext">another breeze and</span></div><br>
+<div class="word">the<span class="wordtext">trade winds</span></div><br>
+<div class="word">soft<span class="wordtext">through the singing trees and the</span></div><br>
+<div class="word">fat worms<span class="wordtext">waiting on a dawn bright lawn</span></div><br>
+<div class="word">and<span class="wordtext">he</span></div><br>
+<div class="word">names<span class="wordtext">the sky</span></div><br>
+<div class="word"> his<span class="wordtext">own</span></div><br>
+
+
+<div class="word">But a caged bird<span class="wordtext">stands on a grave of</span></div><br>
+<div class="word">dreams<span class="wordtext">his shadow shouts</span></div><br>
+<div class="word">on a nightmare<span class="wordtext">scream</span></div><br>
+<div class="word">his wings<span class="wordtext">and clipped</span></div><br>
+<div class="word">and his feet<span class="wordtext"> are tied so he opens</span></div><br>
+<div class="word">his throat<span class="wordtext">to sing.</span></div><br>
+<div class="word">The caged bird sings<span class="wordtext">with a fearful trill</span></div>  <br>  
+<div class="word">of things<span class="wordtext"> unknown but</span></div><br><div class="word">longed for<span class="wordtext">still</span></div><br>
+<div class="word">and<span class="wordtext">his tune</span></div><br>
+<div class="word">is heard<span class="wordtext">on a distant hill</span></div><br>
+<div class="word">for the<span class="wordtext">caged</span></div><br>
+<div class="word">bird sings<span class="wordtext">of freedom</span></div><br>
+</div>
+
+</body>
+
+
+</html>
